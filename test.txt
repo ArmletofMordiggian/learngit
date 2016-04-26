@@ -3,3 +3,23 @@ git test2
 git test3
 git test4
 git test5
+cd yangj
+rex -qw -F -f nnop015 -G qflive  -t 100 cmd "sh /usr/local/src/Nginx_restart.sh"
+rex -qw -F -f nnop015 -G 8livegroup  -t 100 cmd "sh /usr/local/src/Nginx_restart.sh"
+
+rex -qw -F -f nnop015 -G zjwtzmip  -t 100 cmd "/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf.hls -s stop"
+rex -qw -F -f nnop015 -G zjwtzmip  -t 100 cmd "/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf.hls"
+
+
+rex -qw -F -f nnop015 -G zjdxzhuanma  -t 100 cmd "/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf.hls -s stop"
+rex -qw -F -f nnop015 -G zjdxzhuanma  -t 100 cmd "/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf.hls"
+
+rex -qw -F -f nnop015 -G gdencodec  -t 100 cmd "/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf.hls -s stop"      hui365
+rex -qw -F -f nnop015 -G gdencodec  -t 100 cmd "/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf.hls"
+
+
+rex -qw -F -f nnop015 -H '124.160.133.155 124.160.133.156'  -t 100 cmd "sh /usr/local/src/Nginx_restart.sh"
+
+
+ rex -F -G gwk016 -t 100 -qw -s cmd " sh /usr/local/src/Nginx_restart.sh "  
+ rex -F -G gwk016ej -t 100 -qw -s cmd " sh /usr/local/src/Nginx_restart.sh "
