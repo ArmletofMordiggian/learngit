@@ -3,6 +3,7 @@ git test2
 git test3
 git test4
 git test5
+<<<<<<< HEAD
 cd yangj
 rex -qw -F -f nnop015 -G qflive  -t 100 cmd "sh /usr/local/src/Nginx_restart.sh"
 rex -qw -F -f nnop015 -G 8livegroup  -t 100 cmd "sh /usr/local/src/Nginx_restart.sh"
@@ -23,3 +24,6 @@ rex -qw -F -f nnop015 -H '124.160.133.155 124.160.133.156'  -t 100 cmd "sh /usr/
 
  rex -F -G gwk016 -t 100 -qw -s cmd " sh /usr/local/src/Nginx_restart.sh "  
  rex -F -G gwk016ej -t 100 -qw -s cmd " sh /usr/local/src/Nginx_restart.sh "
+=======
+git test6
+>>>>>>> fb98380311306859aa28ccf5ee05929bbf101a26
